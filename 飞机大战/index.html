@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>飞机大战</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="interface">
+        <img id="images-one" src="images/background.png" alt="">
+        <img id="images-tow" src="images/background.png" alt="">
+        <span class="timer">0</span>
+        <span class="score">得分:0</span>
+        <div id="startpage">
+            <img src="images/player.gif" alt="logo">
+            <!-- <p>“飞机大战”</p> -->
+            <ul id="play" class="play"><span>开始游戏</span></ul>
+            <ul id="introd"class="play"><span>游戏介绍</span></ul>
+        </div>
+        <div id="player"></div>
+        <div id="pyewe"></div>
+        <div class="puase">
+        <ul class="play"><span id="carry">继续</span></ul>
+        <ul  class="play"><span id="renew">重新开始</span></ul>
+        <ul  class="play"><span id="home">回到主页</span></ul>            
+        </div>
+        <div class="Introduction">
+            <p>游戏介绍</p>
+            <span>
+                玩家移动自己的大飞机，在躲避迎面而来的其它飞机时，
+                大飞机通过发射炮弹打掉其它小飞机来赢取分数,单击鼠标即可暂停游戏。一旦
+                撞上敌方飞机，游戏就结束。
+            </span>
+            <input class="btn" type="submit" value="确定">
+        </div>
+
+        <div class="end  Introduction" >
+            <p>游戏结束</p>
+            <span id="scre"></span><br>
+            <span id="tim"></span>
+            <input class="homet  btn" type="submit" value="返回主页">
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
