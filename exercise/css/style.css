@@ -1,0 +1,103 @@
+html,body,div,ul,p{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+#container{
+    width: 740px;
+    height: 800px;
+    margin: 80px auto;
+    background: #DDF3FF;
+    position: relative;
+}
+.brick{
+   width: 80px;
+   height: 30px;
+   background: rgb(65, 100, 216);
+   position: absolute;
+   margin-left: 30px;
+   margin-top: 45px;
+}
+.baffil{
+    width: 140px;
+    height: 23px;
+    background: rgb(65, 100, 216);
+    position: absolute;
+    bottom: 10px;
+    left:300px;
+}
+.ball{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    background: blue;
+    position: absolute;
+    bottom: 33px;
+    left: 358px;
+}
+.score{
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+.timer{
+    position: absolute;
+    right: 15px;
+    top: 2px;
+}
+.conten{
+    width: 260px;
+    height: 500px;
+    margin: 80px auto;
+    padding-top: 320px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.conten p{
+    font-size: 30px;
+}
+.button{
+    width: 130px;
+    height: 37px;
+    border: 1px solid black;
+    border-radius: 25px;
+    display: block;
+    background: none;
+    margin: 25px auto;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+.failures{
+    width: 280px;
+    height: 320px;
+    border: 1px solid black;
+    background: rgb(213, 241, 239);
+    position: absolute;
+    left: 230px;
+    top: 200px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+.failures p{
+    font-size: 24px;
+    text-align: center;
+}
+.failures span{
+    display: block;
+    font-size: 18px;
+    margin-top: 20px;
+}
+#homebtn{
+    width: 120px;
+    height: 37px;
+    border: 1px solid black;
+    display: block;
+    background: none;
+    margin: 140px auto;
+    outline: none;
+    cursor: pointer;
+}
+.clrea{
+    display: none;
+}
