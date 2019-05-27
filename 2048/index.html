@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document </title>
+    <audio class="back" src="assets/background.mp3" controls="controls" hidden loop="loop"></audio>
+    <audio class="backlose" src="assets/lose.mp3" controls="controls" hidden></audio>
+    <audio class="backmusi" src="assets/music1.mp3" controls="controls" hidden></audio>
+    <audio class="backwins" src="assets/win.mp3" controls="controls" hidden></audio>
+</head>
+<body>
+    <div class="content">
+      <div class="conatiner">
+        <div class="innter">
+            <p>2048</p>
+            <button id="play" class="botton">开始游戏</button>
+            <button id="introd" class="botton">游戏介绍</button>
+        </div>
+        <div class="introdback innter">
+            <p>游戏介绍</p>
+            <span>
+                点击开始游戏，进入游戏页面，通过箭头键进行方块移动，每次按下箭头键，
+                所有方块移动至该方向最远网格。相同数字相加，不同数字不可叠加，
+                当合成最高数字达到2048时，游戏胜利。
+            </span>
+            <button id="know" class="botton">我知道了</button>
+        </div>
+     </div>
+     <div class="game_inter">
+            <span class="player">Player:游客8005</span>
+            <p class="namep">2048</p>
+            <div class="timer">时间:0</div>
+            <div class="number timer">最高数字:2</div>
+            <img class="imgs" src="images/music.png" alt="">
+            <button class="botton" id="restart">重新开始</button>
+            <div class="box">
+                 <!-- 第一行 -->
+                <div class="ex" id="c00"></div>
+                <div class="ex" id="c01"></div>
+                <div class="ex" id="c02"></div>
+                <div class="ex" id="c03"></div>
+                <!-- 第二行 -->
+                <div class="ex" id="c10"></div>
+                <div class="ex" id="c11"></div>
+                <div class="ex" id="c12"></div>
+                <div class="ex" id="c13"></div>
+                <!-- 第三行 -->
+                <div class="ex" id="c20"></div>
+                <div class="ex" id="c21"></div>
+                <div class="ex" id="c22"></div>
+                <div class="ex" id="c23"></div>
+                <!-- 第四行 -->
+                <div class="ex" id="c30"></div>
+                <div class="ex" id="c31"></div>
+                <div class="ex" id="c32"></div>
+                <div class="ex" id="c33"></div>
+
+            </div>
+     </div>
+
+     <div class="gameover">
+        <p>2048</p>
+        <span class="gametim">游戏时间:20s</span>
+        <span class="gamescore">最高数字:20</span>
+        <button class="bottons">重新开始</button>
+     </div>
+     <div class="gamewin  gameover">
+        <p>2048</p>
+        <p>游戏胜利</p>
+        <span class="users">用户名:游客8005</span>
+        <span class="gametim">游戏时间:20s</span>
+        <span class="gamescore">最高数字:20</span>
+        <button class="bottons">重新开始</button>
+     </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
