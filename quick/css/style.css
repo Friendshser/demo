@@ -1,0 +1,312 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+.content{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition:   all 0.5s;
+}
+.navbar-header{
+    transition: all 1s;
+}
+.home-banner{
+    width: 100%;
+    background: url('../images/banner.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.gradient{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#002453 0%, #ff2b4a 100%);
+    opacity: 0.7;
+
+}
+.icon-bar{
+    background: white;
+}
+.navbar-nav>li>a{
+    color: white;
+    font-size: 14px;
+}
+.navbar-nav>li>a:hover{
+    background:none;
+}
+.nav>li>a:focus{
+    background: none;
+}
+.context{
+   width: 100%;
+   position: absolute;
+   text-align: center;
+   color: white;
+   top: 50%;
+   margin-top: -160px;
+
+}
+.context h1{
+    font-size: 35px;
+    letter-spacing: 30px;
+    padding-bottom: 30px;
+    font-weight: normal;
+    font-family: 'Raleway' ,'sans-serif';
+    text-transform: uppercase;
+}
+.context p{
+    font-size: 16px;
+    letter-spacing: 10px;
+    font-weight: 100;
+}
+.contents{
+    background: #f7f7f7;
+    padding-top: 80px;
+}
+.divider{
+    width: 150px;
+    height: 2px;
+    display: block;
+    background: red;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.about-intor {
+   padding-top: 70px;
+}
+.about-intor h3{
+    color: #444;
+    line-height: 40px;
+}
+.about-intor h5{
+    color: #777;
+    font-size: 15px;
+    font-weight: mormal;
+    line-height: 25px;
+    
+}
+.about-intor p{
+    color: #666;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+@media (width: 1200px){
+    .container{
+        width: 1160px;
+    }
+}
+.persone{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.title{
+    width: 65%;
+    margin:0 auto;
+    text-align: center;
+}
+.title p{
+    font-size: 24px;
+    font-weight: 600;
+ 
+}
+.title span{
+    font-family:  'Volkhov', serif;
+    color: #777;
+    font-style: italic;
+}
+.percess{
+    width: 100%;
+    height: 180px;
+    border: 1px solid #666;
+    text-align: center;
+    position: relative;
+}
+.percess img{
+    margin: 30px auto;
+    transition: all 0.3s;
+    display: block;
+    position: relative;
+}
+.percess span{
+    font-size: 11px;
+    display: block;
+    transform: scale(0);
+    transition: all 0.5s;
+}
+.percess:hover img {
+    margin-top: -30px;
+}
+.percess:hover span{
+    transform: scale(1);
+}
+.percess:hover{
+    border: 1px solid #835aeb;
+}
+.pronk{
+    margin-top: 70px;
+}
+.content-tow{
+    width: 100%;
+    background: url('../images/education.jpg') no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    position: relative;
+}
+.backgrab{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg,#002453 0%, #ff2b4a 100%);
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+}
+.expor{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding: 50px 50px 50px 50px; 
+}
+.expor ul li{
+    list-style: none;
+}
+.expor h3{
+    margin-bottom: 40px;
+}
+.content-three{
+    padding-top: 20px;
+}
+.imagesperon{
+    margin-top: 80px;
+}
+.contenimg{
+    overflow: hidden;
+}
+.contenimg img{
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+.contenimg:hover img{
+    transform: scale(1.3)
+}
+/* .mask{
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+} */
+.row{
+    margin-top: 8px;
+    overflow: hidden;
+}
+.testimont{
+    width: 100%;
+    background: url('../images/testimonial.jpeg')no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: block;
+}
+.drake{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top:90px;
+    padding-bottom: 50px;
+    position: relative;
+}
+.caronter{
+    width: 200%;
+    padding-top: 85px;
+    position: relative;
+    transition: all 1s;
+    left: 0;
+}
+.caronter-one{
+    width: 49%;
+    float: left;
+}
+.caronter-one p{
+    font-size: 18px;
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+}
+.caronter-one span{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 600;
+
+}
+.pagintion{
+    width: 35px;
+    height: 10px;
+    margin: 70px auto;
+}
+.page{
+    width: 8px;
+    height: 8px;
+    border-radius: 50px;
+    border: 3px solid #777;
+    float: left;
+    margin-right: 7px;
+    cursor: pointer;
+}
+.clexa{
+    border: 3px solid white;
+}
+.inputys input[type = text]{
+    width: 30%;
+    height: 45px;
+    border: none;
+    background: #f9f9f9;
+    padding-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.input-message{
+    width: calc(100% - 15px);
+    font-size: 13px;
+    border: none;
+    background: #f9f9f9;
+    padding: 15px;
+    resize: none;
+    margin-bottom: 15px;
+}
+.submit{
+    background: #ff2b4a;
+    color: #fff;
+    font-weight: 600;
+    padding: 11px 70px 13px;
+    border: none;
+    font-size: 16px;
+    transition: all 0.5s;
+}
+.submit:hover{
+    background:none;
+    color: #000;
+    border: 1px solid #000;
+}
+.actriveone h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+}
+.actriveone span{
+    color: #ff2b4a;
+}
+.actriveone p{
+    color: #888888;
+    font-size: 13px;
+    margin-bottom: 25px;
+    margin-top: 10px;
+    line-height: 28px;
+}
+.inputtext{
+    margin-top: 65px;
+}
