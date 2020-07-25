@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./JQuery/jquery-3.4.1.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="contaninter">
+        <div class="content">
+            <div class="con homepage">
+                <h2>Link Fest</h2>
+                <div class="homebtns">
+                    <div class="homebtn infor button"><img src="./images/icon1.png" alt="1"></div>
+                    <div class="homebtn start button">Start</div>
+                    <div class="homebtn ranking button"><img src="./images/icon2.png" alt="2"></div>
+                </div>
+            </div>
+            <div class="con diffictlypage">
+                <div class="btncontents">
+                    <div class="contenttitle">Difficulty </div>
+                    <div class="returnbtn diffreturn button"><img src="./images/icon3.png" alt="3"></div>
+                    <div class="difficluybtn  easy button">
+                        <div class="whitecont">Easy</div>
+                    </div>
+                    <div class="difficluybtn  normal button">
+                        <div class="whitecont">Normal</div>
+                    </div>
+                    <div class="difficluybtn  hard button">
+                        <div class="whitecont">Hard</div>
+                    </div>
+                </div>
+            </div>
+            <div class="con usernamepage">
+                <h2>input You Name</h2>
+                <div class="inputcont">
+                    <input class="iput username" type="text">
+                    <button class="iput button confirem">Confirm</button>
+                </div>
+            </div>
+            <div class="con gamepage">
+                <div class="gameplan">
+                    <div class="enerycontent">
+                        <div class="enerylength">
+                            <div class="enerylengthser"></div>
+                        </div>
+                        <div class="eneryser">15</div>
+                        <span class="name">name</span>
+                    </div>
+                    <span class="nume blocks">Remaining blocks:0</span>
+                    <h2>Link Fest</h2>
+                    <div class="game-content">
+                        <span class="nume scores">Score:0</span>
+                        <span class="nume timers">timer:0</span>
+                        <div class="gamemap"></div>
+                        <canvas id="canvas" width="860px" height="540px"></canvas>
+                    </div>
+                    <div class="game-btns">
+                        <div class="gamebtn button point"><img src="./images/icon4.png" alt="4"><span
+                                class="toll1">2</span></div>
+                        <div class="gamebtn button refesh"><img src="./images/icon5.png" alt="5"><span
+                                class="toll2">3</span></div>
+                        <div class="gamebtn button timeout"><img src="./images/icon6.png" alt="6"></div>
+                        <div class="gamebtn button musice"><img src="./images/icon8.png" alt="8"></div>
+                        <div class="gamebtn button infor"><img src="./images/icon11.png" alt="11"></div>
+                        <div class="gamebtn button init"><img src="./images/icon10.png" alt="10"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="con rankingpege">
+                <div class="btncontents rankingconten">
+                    <div class="contenttitle">Ranking List</div>
+                    <div class="returnbtn rankingreturn  button"><img src="./images/icon3.png" alt="3"></div>
+                    <div class="ranking-btn rankeasy button"> Easy</div>
+                    <div class="ranking-btn ranknormal button">Normal</div>
+                    <div class="ranking-btn rankhard button"> Hard</div>
+                    <div class="ranking-btn ranknewgame button"> New Game</div>
+                    <div class="rankconten">
+                     
+                    </div>
+                </div>
+            </div>
+            <div class="rulepage">
+                <h4>Explain</h4>
+                <p>As long as the same two cards with three straight lines can be eliminated,
+                    the rules are simple and easy to use. The game is fast-paced, clear and
+                    lovely, suitable for careful players. Abundant props and public models
+                    are added to enhance the competitiveness of the game.Multi style map
+                    enables players to find challenging goals at all levels of the game and
+                    keep the game fresh for a long time.</p>
+            </div>
+            <div class="gameoverpage">
+                <div class="gameoverpagecont">
+                    <h2>Link Fest</h2>
+                    <h3 class="gamesta">Fail</h3>
+                    <span class="names">Name:0</span>
+                    <span class="score">Score:0</span>
+                    <span class="times">Time:0</span>
+                    <button class="overranking  button">Ranking</button>
+                    <button class="overnewgame  button">New Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/pagemove.js"></script>
+    <script src="./js/game.js"></script>
+    <script src="./js/route.js"></script>
+</body>
+
+</html>
